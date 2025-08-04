@@ -37,6 +37,6 @@ jobs:
         run: |
           pytest
 
-      - name: Run pylint
+      - name: Lint with Pylint
         run: |
-          pylint app/
+          pylint manage.py test_sample.py
